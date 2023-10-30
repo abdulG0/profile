@@ -1,0 +1,60 @@
+h2 {
+  color: rgb(164, 180, 12);
+}
+
+h1 {
+  color: blue;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-weight:100
+}
+
+.para {
+  color: rgb(36, 35, 51);
+  font-size: 1.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  box-shadow: rgba(155, 125, 125, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.socials {
+  text-align: center;
+  font-style: oblique;
+}
+
+.social-link {
+    text-align: center;
+    background-color: #0c0b13;
+    color: rgb(160, 141, 141);
+    padding: 15px;
+    text-decoration: none;
+    margin: auto;
+    width: large;
+    transition: all .3s ease;
+}
+
+.social-link:hover {
+    color: white;
+    background-color: rgb(73, 50, 7);
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+
